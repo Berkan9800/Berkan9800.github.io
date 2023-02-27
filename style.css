@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+
+}
+
+.box {
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+  padding-top: 15px;
+  color: black;
+  font-size: 30px;
+}
+
+#player-x-score {
+  font-weight: bold;
+}
+
+#player-o-score {
+  font-weight: bold;
+}
